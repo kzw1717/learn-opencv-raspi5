@@ -1,0 +1,34 @@
+# ===== leaf_monitor.py が実行時に生成するもの =====
+captures/
+annotated/
+mat_config.json
+region.png
+pot.png
+log.csv
+cron.log
+
+# ハンズオンで生成される画像・ログ・設定（samples 実行時など）
+*.jpg
+*.jpeg
+*.png
+np_log.csv
+mat_config.json
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.Python
+
+# ===== エディタ・OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 注意:
+#  教材内に画像を貼る場合は、その配置フォルダ（例: textbook/images/）を
+#  「!textbook/images/」のように除外解除して追加してください。
